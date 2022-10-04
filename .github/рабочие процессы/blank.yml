@@ -1,0 +1,19 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, while
+sumpol = 0
+sumotr = 0
+i = 0
+while i!=15:
+    a = float(input("Введите число"))
+    if a > 0:
+        sumpol = sumpol + a
+        i = i + 1
+        print("Сумма положительных чисел =", sumpol)
+    elif a < 0:
+            sumotr = sumotr + a
+            i = i + 1
+            print("Сумма отрицательных чисел =", sumotr)
+    else:
+            print("другое введи")
